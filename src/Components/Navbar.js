@@ -41,7 +41,7 @@ const Navbar = () => {
           {authenticated === null ? (
             <ul className="pages-list">
               <li className="Login">
-                <Link to="/login">Login</Link>
+                <Link to="/">Login</Link>
               </li>
               <li>
                 <Link to="/signup">SignUp</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
           ) : (
             <ul className="pages-list">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li onClick={handleClick}>
                 <Link>SignOut</Link>
