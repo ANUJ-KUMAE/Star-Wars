@@ -24,7 +24,7 @@ const Login = () => {
     signInWithEmailAndPassword(database, email, password)
       .then(async (data) => {
         setSubmitButtonDisable(false);
-        history("/");
+        history("/home");
       })
       .catch((err) => {
         setSubmitButtonDisable(false);
