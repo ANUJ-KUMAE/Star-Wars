@@ -30,7 +30,7 @@ const SignUp = () => {
         await updateProfile(user, {
           displayName: name,
         });
-        history("/");
+        history("/home");
       })
       .catch((err) => {
         setSubmitButtonDisable(false);
