@@ -80,7 +80,7 @@ const SignUp = () => {
             </div>
 
             <div className="impt-note">
-               <p>if alreday have Acount : <Link to='/login'><strong style={{fontSize:'1.2rem'}}>Login</strong></Link></p>
+               <p>if alreday have Acount : <Link to='/'><strong style={{fontSize:'1.2rem'}}>Login</strong></Link></p>
             </div>
           </form>
         </div>
