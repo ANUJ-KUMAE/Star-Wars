@@ -62,7 +62,7 @@ const Login = () => {
             <div className="button-part">
               <p>{errorMsg}</p>
               <button disabled={submitButtonDisable} className="btn">
-                SignUp
+                Login
               </button>
             </div>
 
