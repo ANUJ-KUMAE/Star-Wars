@@ -6,9 +6,9 @@ import {getAuth} from "firebase/auth"
 const firebaseConfig = {
   apiKey: "",
   authDomain: "",
-  projectId: "planetdata-66ca1",
-  storageBucket: "planetdata-66ca1.appspot.com",
-  messagingSenderId: "1076275773419",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
   appId: ""
 };
 
