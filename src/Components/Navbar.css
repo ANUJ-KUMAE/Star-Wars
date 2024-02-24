@@ -1,0 +1,89 @@
+.navbar-container 
+{
+    background: linear-gradient(to right, blue, pink);
+}
+
+.Nav-list 
+{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-list .pages-list 
+{
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+.pages-list li 
+{
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.pages-list a 
+{
+    text-decoration: none;
+}
+
+.Nav-image img 
+{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0.2rem 0.4rem;
+}
+
+
+
+/*----------------Footer Container---------*/
+
+.footer-container 
+{
+    background:linear-gradient(to right, blue, pink);
+    text-align: center;
+}
+
+
+
+.footer-list 
+{
+    padding: 1rem;
+}
+
+.footer-list h4 
+{
+    font-size: 1.2rem;
+}
+
+/*--------------Responsive--------------*/
+
+@media screen and (max-width:285px)
+{
+    .pages-list .Login 
+    {
+        display: none;
+    }
+
+    .Nav-image img 
+    {
+        width: 60px;
+        height: 50px;
+        margin: 0.1rem 0.2rem;
+    }
+
+    .pages-list li 
+    {
+        font-size: 1.2rem;
+        
+    }
+
+    .Nav-list .pages-list 
+    {
+        margin-right: 0;
+    }
+}
