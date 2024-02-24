@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+This is a ReactJS project integrated with Firebase. Firebase is utilized for login and signup authentication.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Initially, users must sign up with their email and password.
 
-## Available Scripts
+Upon successful signup, users are directed to the home page where data for all planets is displayed within a table.
 
-In the project directory, you can run:
+At the bottom of the page, a "Next Page" button is provided. Users can navigate to the next page to view additional data. Additionally, a "Previous Page" button is available for navigating back to the previous page.
 
-### `npm start`
+The "Previous Page" button becomes accessible after the user clicks on the "Next Page" button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+#Login Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Login](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/a2f04e95-8120-4f2d-8c2e-64bd905559c4)
 
-### `npm run build`
+#SignUp Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![SignUp](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/42487b55-9cba-46fb-9b34-63bf5315a22d)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#HomePage
 
-### `npm run eject`
+![Main Page](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/4114bea5-166d-4b80-8281-1dc1894ae050)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#HomePage2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Main PAge1](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/d09929be-fa5b-4982-ab46-e8332777a14c)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+#Bottom with Page Nevigation Button
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Bottom Page](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/d70781ed-193c-488b-ba77-a9adba6ac30f)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+#Footer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Bottom Page2](https://github.com/ANUJ-KUMAE/Star-Wars/assets/119961686/6b444798-4fe5-40da-9130-34bb7b7c318b)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
